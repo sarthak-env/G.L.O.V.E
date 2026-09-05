@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.egg-info/
+
+# Project-generated data & models (personal to whoever trained them)
+server/gesture_data.csv
+server/gesture_model.joblib
+server/gesture_labels.joblib
+server/server_log*.txt
+
+# Arduino/firmware secrets
+firmware/config.h
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
